@@ -45,7 +45,7 @@ export CACHE_DIR="$HOME/.cache/leagueoflegends"
 export LOL_CLIENT_BIN="LeagueClient.exe"
 export WINEARCH=win32
 export WINEDLLOVERRIDES="msvcp140=n,b"
-export WINE_REQ_MOD=("d3dx9" "corefonts" "vcrun2017" "win7")
+export WINE_REQ_MOD=("corefonts" "vcrun2017" "win7")
 export BASE_DIR="$HOME/.local/share/leagueoflegends"
 export WINEPREFIX="$BASE_DIR/wine.$WINEARCH"
 export INSTALL_PATH="$BASE_DIR/LOL"
